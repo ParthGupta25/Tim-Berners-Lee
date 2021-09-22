@@ -21,7 +21,7 @@ body{
     overflow: hidden;
     width:98.9% ;
     margin: 8px;
-        height:50%;
+    height:50%;
     z-index:3;
     
 }
@@ -57,6 +57,7 @@ body{
     right: 15px;
     top:10px;
     position:absolute;
+    position:fixed;
 }
 .item{
     float:left;
@@ -65,4 +66,22 @@ body{
     padding-bottom: 5px;
     padding-top: 5px;
 
+}
+#Videos{
+    background: linear-gradient(#fcf803 0% , #03f8fc 100%);
+}
+#Work{
+    background: linear-gradient(#03fcd3 0% , #3dfc03 100%);
+}
+#writings{
+    background: linear-gradient(#fc03d7 0% , #f4fc03 100%);
+}
+#contact{
+    background: linear-gradient(#3dfc03 0% , #fc03d7 100%);
+}
+a {
+        text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
 }
