@@ -54,17 +54,17 @@ body{
     font-family: 'Carattere', cursive;
     font-size: 30px;
     z-index:4;
-    right: 15px;
-    top:10px;
-    position:absolute;
+    top:0px;
     position:fixed;
+    width:100%;
+    background-color: white;
+    margin-top:0px;
 }
 .item{
-    float:left;
-     padding-left: 10px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    padding-top: 5px;
+    display: inline;
 
 }
 #Videos{
@@ -78,10 +78,18 @@ body{
 }
 #contact{
     background: linear-gradient(#3dfc03 0% , #fc03d7 100%);
+    color:blue;
 }
 a {
         text-decoration: none;
 }
 html {
     scroll-behavior: smooth;
+}
+.blank h3{
+    display:inline;
+}
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
 }
